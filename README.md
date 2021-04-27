@@ -1,11 +1,11 @@
 # Electron-Lark
 
- ![release-download-count](https://img.shields.io/github/downloads/Ericwyn/electron-lark/total.svg)
+ ![release-download-count](https://img.shields.io/github/downloadswheelcomplex/electron-alimail/total.svg)
 
- ***下载地址: [Release](https://github.com/Ericwyn/electron-lark/releases)***
+ ***下载地址: [Release](https://github.com/wheelcomplex/electron-alimail/releases)***
 
 
-electron 版的飞书 Feishu (原 Lark)，对网页版本进行封装
+electron 版的飞书 Alimail， 基于 [Feishu (原 Lark)](https://github.com/Ericwyn/electron-lark) 修改，对网页版本进行封装
 
 相比起普通网页版，功能如下
 
@@ -39,7 +39,7 @@ electron 版的飞书 Feishu (原 Lark)，对网页版本进行封装
 ## 版本记录
 ### V1.1.1
 抄了 [ttys3](https://github.com/ttys3) 大佬的作业，感谢大佬！
- - 禁用硬件加速来修复 CPU 占用过高的问题 [issue12](https://github.com/Ericwyn/electron-lark/issues/12)
+ - 禁用硬件加速来修复 CPU 占用过高的问题 [issue12](https://github.com/wheelcomplex/electron-alimail/issues/12)
  - 升级 electron 到 13.0.0-bate 解决 appTray 消失问题，不再使用 dbus-monitor 方案
  - 支持点击通知打开应用，使用拦截网页消息通知并使用 electron 来重新发送的方式实现
 
@@ -76,7 +76,7 @@ electron 版的飞书 Feishu (原 Lark)，对网页版本进行封装
 
 
 ## 安装方法 (二进制安装)
- - 请从 [Release](https://github.com/Ericwyn/electron-lark/releases) 页面直接下载及安装 （ubuntu 18.04 上测试通过）
+ - 请从 [Release](https://github.com/wheelcomplex/electron-alimail/releases) 页面直接下载及安装 （ubuntu 18.04 上测试通过）
 
 ## 安装方法 (从源码安装)
 

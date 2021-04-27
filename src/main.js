@@ -10,7 +10,7 @@ const ipcMain = electron.ipcMain;
 const BrowserWindow = electron.BrowserWindow;
 const Notification = electron.Notification;
 const Menu = electron.Menu;
-if (process.mas) app.setName('飞书Feishu');
+if (process.mas) app.setName('阿里邮件Alimail');
 
 // fixup High CPU Usage issue
 // see https://github.com/electron/electron/issues/11908
@@ -51,7 +51,7 @@ function createWindow(configJson) {
 
     // mainWindow.loadFile('index.html')
     // 改为使用loadURL加载飞书地址
-    let loadUrl = "https://feishu.cn/messenger/";
+    let loadUrl = "https://qiye.aliyun.com/alimail/";
     if (configJson.startPageLink !== undefined
         && configJson.startPageLink != null
         && configJson.startPageLink.trim() != "") {
@@ -250,7 +250,7 @@ const contextMenu = electron.Menu.buildFromTemplate(trayMenuTemplate)
 
 function appTrayInit(){
     newAppTray = new electron.Tray(dock32Icon);
-    newAppTray.setToolTip('Feishu');
+    newAppTray.setToolTip('Alimail');
     newAppTray.setContextMenu(contextMenu);
     newAppTray.on('click',function () {
         stopBlingIcon();

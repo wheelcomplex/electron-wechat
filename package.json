@@ -2,21 +2,21 @@
   "name": "electron-lark",
   "version": "1.1.1",
   "main": "src/main.js",
-  "description": "An Electron application for Feishu(Lark)",
+  "description": "An Electron application for Alimail(base on Lark)",
   "author": "Ericwyn <ericwyn@meetwhy.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ericwyn/electron-lark.git"
+    "url": "https://github.com/wheelcomplex/electron-alimail.git"
   },
   "keywords": [
     "Electron",
-    "Feishu",
+    "Alimail",
     "Lark",
     "飞书"
   ],
-  "bugs": "https://github.com/Ericwyn/electron-lark/issues",
-  "homepage": "https://github.com/Ericwyn/electron-lark",
+  "bugs": "https://github.com/wheelcomplex/electron-alimail/issues",
+  "homepage": "https://github.com/wheelcomplex/electron-alimail",
   "scripts": {
     "start": "electron ."
   },
@@ -28,7 +28,7 @@
   "linux": {
     "category": "Office",
     "packageCategory": "Office",
-    "synopsis": "An Electron application for Feishu(Lark)",
+    "synopsis": "An Electron application for Alimail(base on Lark)",
     "icon": "./build/icons",
     "target": [
       {
