@@ -5,7 +5,7 @@
  ***下载地址: [Release](https://github.com/wheelcomplex/electron-alimail/releases)***
 
 
-electron 版的飞书 Alimail， 基于 [Feishu (原 Lark)](https://github.com/Ericwyn/electron-lark) 修改，对网页版本进行封装
+electron 版的阿里企业邮件 Alimail， 基于 [飞书 Feishu (原 Lark)](https://github.com/Ericwyn/electron-lark) 修改，对网页版本进行封装
 
 相比起普通网页版，功能如下
 
