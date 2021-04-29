@@ -119,7 +119,7 @@
                     <p>设置完毕请手动重启应用</p>
                     <div class="mdui-textfield">
                         <textarea class="mdui-textfield-input"
-                                  placeholder="默认为: https://qiye.aliyun.com/alimail/"
+                                  placeholder="默认为: https://wx.qq.com/"
                                   v-model="startPageLink"></textarea>
                     </div>
 
@@ -174,7 +174,7 @@
                     <br>
                     <p>基于网页版飞书的简单套壳，代码粗糙，能用即可</p>
                     <br>
-                    <p>项目地址: https://github.com/wheelcomplex/electron-alimail</p>
+                    <p>项目地址: https://github.com/wheelcomplex/electron-wechat</p>
                     <p>可前往 Release 页面查看并下载最新版本</p>
                     <br>
                     <button class="mdui-btn mdui-color-pink mdui-text-color-white" 
@@ -292,11 +292,11 @@
     }
 
     function gotoGitub(){
-        require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-alimail')
+        require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-wechat')
     }
 
     function gotoRelease(){
-        require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-alimail/releases')
+        require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-wechat/releases')
     }
 
 </script>

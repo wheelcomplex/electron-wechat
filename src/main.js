@@ -51,7 +51,7 @@ function createWindow(configJson) {
 
     // mainWindow.loadFile('index.html')
     // 改为使用loadURL加载飞书地址
-    let loadUrl = "https://qiye.aliyun.com/alimail/";
+    let loadUrl = "https://wx.qq.com/";
     if (configJson.startPageLink !== undefined
         && configJson.startPageLink != null
         && configJson.startPageLink.trim() != "") {

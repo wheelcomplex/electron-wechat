@@ -1,22 +1,22 @@
 {
-  "name": "electron-lark",
+  "name": "electron-wechat",
   "version": "1.1.1",
   "main": "src/main.js",
-  "description": "An Electron application for Alimail(base on Lark)",
+  "description": "An Electron application for wechat(base on Lark)",
   "author": "Ericwyn <ericwyn@meetwhy.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wheelcomplex/electron-alimail.git"
+    "url": "https://github.com/wheelcomplex/electron-wechat.git"
   },
   "keywords": [
     "Electron",
-    "Alimail",
+    "wechat",
     "Lark",
     "飞书"
   ],
-  "bugs": "https://github.com/wheelcomplex/electron-alimail/issues",
-  "homepage": "https://github.com/wheelcomplex/electron-alimail",
+  "bugs": "https://github.com/wheelcomplex/electron-wechat/issues",
+  "homepage": "https://github.com/wheelcomplex/electron-wechat",
   "scripts": {
     "start": "electron ."
   },

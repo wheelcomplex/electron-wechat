@@ -61,7 +61,7 @@ let template = [
         submenu: [{
             label: 'Github',
             click: function () {
-                require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-alimail')
+                require('electron').shell.openExternal('https://github.com/wheelcomplex/electron-wechat')
             }
         }]
     }
